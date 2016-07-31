@@ -1,14 +1,18 @@
+## Introduction
+This project is based on the excellent work by Gerard33 from which I forked the code base. I've also used javascript changed
+by Aiolos.
+What I've done is created another interface so I can use it on my Raspberry Pi with the Pi 7" Touch interface.
+It is based on flickity and gallery, two useful javascript libraries.
+
 ## Domoticz Frontpage
 
 See http://www.domoticz.com/forum/viewtopic.php?f=8&t=4698.
 
 ## Screenshot
-page 1 (day)
-![Alt text](/screenshot/frontpage_new.png "Frontpage night (page 1)")
-page 1 (night)
-![Alt text](/screenshot/frontpage-night.jpg "Frontpage night (page 1)")
-page 2 (day)
-![Alt text](/screenshot/frontpage-day.jpg "Frontpage day (page 2)")
+page 1
+![Alt text](/screenshot/frontpage1.jpg "Frontpage (page 1)")
+page 2
+![Alt text](/screenshot/frontpage2.jpg "Frontpage (page 2)")
 
 ## Introduction
 
@@ -32,16 +36,3 @@ It will take some time and a lot of trial and error but it is definitely worth i
 2a) edit url of domoticz
    
 2b) edit switches (idx, descriptions, etc)
-
-## If you have a Sonos
-1) Add the Sonos as a dummy switch in Domoticz
-
-2) Check the idx of this switch
-
-3) In the On command of the switch place: http://yourip/folder/frontpage/sonos/index.php?zone=IDX&action=Play (change IDX with the idx of your Sonos in Domoticz)
-
-4) In the Off command of the switch place: http://yourip/folder/frontpage/sonos/index.php?zone=IDX&action=Stop (change IDX with the idx of your Sonos in Domoticz)
-
-5) Edit config.php in sonos folder, fill in the idx and the ip address
-
-6) Volume of Sonos can also be changed via the frontpage, in the frontpage_settings.js file set the plusmin button to value 2 (see the example)

@@ -1,0 +1,56 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body { 
+    font-family: sans-serif;
+    margin: 2px;
+}
+
+.gallery {
+  background: #EEE;
+}
+
+.gallery-cell {
+  width: 80%;
+  height: 450px;
+  margin-right: 10px;
+  background: grey ;
+  counter-increment: gallery-cell;
+}
+
+/* cell number */
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  /*line-height: 450px;*/
+  font-size: 80px;
+  color: white;
+}
+
+.gallery-cell__title {
+    background-color: burlywood;
+    color:white;
+    text-align:center;
+    padding:2px; 
+    height: 40px;
+    font-size: 2.0em;
+
+/*
+  display: block;
+  vertical-align: top;
+  text-align: center;
+  height: 40px;
+  font-size: 2.0em;
+  color: white;
+  padding-top: 5px;
+*/
+}
+
+.gallery-cell__content {
+  display: block;
+  text-align: center;
+  color: yellow;
+  height: 400px;
+}
