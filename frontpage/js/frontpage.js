@@ -316,33 +316,37 @@ function RefreshData() {
                                     var temp = item['Level'] + "";
                                     lvlindex = temp.slice(0, -1);
                                 }
-                                var LevelName = lvlnames[lvlindex];
+                                // var LevelName = lvlnames[lvlindex];
+                                var LevelName = lvlnames[lvlindex].substr(0, 8);
                                 if (LevelName == 'Off') {
                                     LevelName = txt_off;
                                 }
-                                if(lvlindex == 0) { //switch is off
-                                    //var hlp = '<span onclick=BlindChangeStatus('plus', vdata, item.idx);lightbox_open(\'switch\', '+switch_on_timeout+', '+txt_switch_on+')"; style='+alarmcss+'>'+ vdata+'</span>';
+                                // EDB: removed selector part, because the min/plus is not working and the text is too long
+                                // if(lvlindex == 0) { //switch is off
+                                //    //var hlp = '<span onclick=BlindChangeStatus('plus', vdata, item.idx);lightbox_open(\'switch\', '+switch_on_timeout+', '+txt_switch_on+')"; style='+alarmcss+'>'+ vdata+'</span>';
                                     //allow button to switch on
-                                    var hlp = '<span onclick="BlindChangeStatus(\'plus\', '+vdata+', '+item.idx+');lightbox_open(\'switch\', '+switch_on_timeout+', '+txt_switch_on+')"; style='+alarmcss+'>'+LevelName+'</span>';
-                                    var plus = ""; //no up when switch is off
-                                    var min = ""; //no down when switch is off
-                                    //var plus = "<img src=icons/up_off.png align=right vspace=12 width=30 onclick=BlindChangeStatus('plus'," +vdata+ "," + item.idx + ")>";
-                                    //var min = "<img src=icons/down_off.png align=left vspace=12 width=30>";
-                                }
-                                else { //switch is on
-                                    if (lvlindex == countlevels) { //max level, don't allow plus button to go to next level which isn't there
-                                        var plus = "<img src=icons/up.png align=right vspace=12 width=30>";
-                                    }
-                                    else {
-                                        var plus = "<img src=icons/up.png align=right vspace=12 width=30 onclick=BlindChangeStatus('plus'," +vdata+ "," + item.idx + ")>";
-                                    }
-                                    var min = "<img src=icons/down.png align=left vspace=12 width=30 onclick=BlindChangeStatus('min'," +vdata+ "," + item.idx + ")>";
-                                    //var hlp = '<span style='+vattr+'>'+LevelName+'</span>';
-                                    //allow button to switch off
-                                    var hlp = '<span onclick="SwitchToggle('+item.idx+', \'Off\');lightbox_open(\'switch\', '+switch_off_timeout+', '+txt_switch_off+')"; style='+alarmcss+'>'+LevelName+'</span>';
-                                }
+                                //    var hlp = '<span onclick="BlindChangeStatus(\'plus\', '+vdata+', '+item.idx+');lightbox_open(\'switch\', '+switch_on_timeout+', '+txt_switch_on+')"; style="font-size: 20px;">'+LevelName+'</span>';
+                                //    var plus = ""; //no up when switch is off
+                                //    var min = ""; //no down when switch is off
+                                //    //var plus = "<img src=icons/up_off.png align=right vspace=12 width=30 onclick=BlindChangeStatus('plus'," +vdata+ "," + item.idx + ")>";
+                                //    //var min = "<img src=icons/down_off.png align=left vspace=12 width=30>";
+                                //}
+                                //else { //switch is on
+                                //    if (lvlindex == countlevels) { //max level, don't allow plus button to go to next level which isn't there
+                                //        var plus = "<img src=icons/up.png align=right vspace=12 width=30>";
+                                //    }
+                                //    else {
+                                //        var plus = "<img src=icons/up.png align=right vspace=12 width=30 onclick=BlindChangeStatus('plus'," +vdata+ "," + item.idx + ")>";
+                                //    }
+                                //    var min = "<img src=icons/down.png align=left vspace=12 width=30 onclick=BlindChangeStatus('min'," +vdata+ "," + item.idx + ")>";
+                                //    //var hlp = '<span style='+vattr+'>'+LevelName+'</span>';
+                                //    //allow button to switch off
+                                //    var hlp = '<span onclick="SwitchToggle('+item.idx+', \'Off\');lightbox_open(\'switch\', '+switch_off_timeout+', '+txt_switch_off+')"; style="font-size: 18px;">'+LevelName+'</span>';
+                                //}
                                 //console.log(vdata);
-                                vdata = min.concat(hlp,plus);
+                                //vdata = min.concat(hlp,plus);
+                                
+                                vdata = '<span style="font-size: 18px;">'+LevelName+'</span>';
                                 break;
                             case "Blinds":
                                 var hlp = '<img src=icons/sun_stop_d.png hspace=15 vspace=10 onclick="SwitchToggle('+item.idx+', \'Stop\');lightbox_open(\'switch\', '+switch_on_timeout+', '+txt_blind_stop+')">';
