@@ -48,10 +48,10 @@ $(document).ready(function () {
         ['431', 'Status',           'cell_p2_11',   'Normaal', '0', '1'],
         ['432', 'Status',           'cell_p2_12',   'Fel', '0', '1'],
 
-        ['13', 'Status',            'cell_p2_13',   'Lamp achter', '0', '1'],
-        ['45', 'Status',            'cell_p2_14',   'Lamp speaker', '0', '1'],
-        ['7',  'Status',            'cell_p2_15',   'Staande lamp', '0', '1'],
-        ['15', 'Status',            'cell_p2_16',   'Lamp banken', '0', '1']
+        ['13',  'Status',           'cell_p2_13',   'Lamp achter', '0', '1'],
+        ['45',  'Status',           'cell_p2_14',   'Lamp speaker', '0', '1'],
+        ['7',   'Status',           'cell_p2_15',   'Staande lamp', '0', '1'],
+        ['498', 'Status',           'cell_p2_16',   'Lamp banken', '0', '1']
 
     ];
     $.PageArray_Scenes = [
