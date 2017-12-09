@@ -35,7 +35,7 @@ $(document).ready(function () {
         // page 2
         ['269', 'Status',           'cell_p2_1',    'Overloop', '0', '1'],
         ['339', 'Status',           'cell_p2_2',    'Overloop nacht', '0', '1'],
-        ['', '',           '',    '', '0', '1'],
+        ['522', 'Status',           'cell_p2_3',    'Boekenkast', '0', '1'],
         ['353', 'Status',           'cell_p2_4',    'Oppas', '0', '1'],
 
         ['429', 'Status',           'cell_p2_5',    'Eettafel ->', '0', '1'],
