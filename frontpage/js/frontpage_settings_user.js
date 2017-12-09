@@ -25,7 +25,7 @@ $(document).ready(function () {
         ['260', 'Status',           'cell_p1_9',    'Garagedeur', '2', '8'],
         ['73', 'CounterToday',      'cell_p1_10',   'Gas vandaag', '1', '4'],
         ['33', 'Status',            'cell_p1_11',   'Power Cube', '0', '1'],
-        ['8', 'Status',             'cell_p1_12',   'Garage Wifi', '0', '1'],
+        ['8', 'Status',             'cell_p1_12',   'Kerstboom', '0', '1'],
         
         ['72', 'Usage',             'cell_p1_13',   'Elektra nu', '1', '4'],
         ['72', 'CounterToday',      'cell_p1_14',   'Elektra vandaag', '1', '4'],
@@ -35,7 +35,7 @@ $(document).ready(function () {
         // page 2
         ['269', 'Status',           'cell_p2_1',    'Overloop', '0', '1'],
         ['339', 'Status',           'cell_p2_2',    'Overloop nacht', '0', '1'],
-        ['354', 'Status',           'cell_p2_3',    'Kerstboom', '0', '1'],
+        ['', '',           '',    '', '0', '1'],
         ['353', 'Status',           'cell_p2_4',    'Oppas', '0', '1'],
 
         ['429', 'Status',           'cell_p2_5',    'Eettafel ->', '0', '1'],
