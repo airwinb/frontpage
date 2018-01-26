@@ -78,7 +78,8 @@ function RefreshData() {
                             // remove too much text
                             vdata = new String(vdata).split(" Level:",1)[0];
                             vdata = new String(vdata).replace("Set","On");
-                            vdata = new String(vdata).split("m3",1)[0];
+                            //EDB: remove this here, will be done later
+                            //vdata = new String(vdata).split("m3",1)[0];
                             vdata = new String(vdata).replace("true","protected");
                             //Added by GZ to only show date if <> today, see below
                             vdate = new String(vls).split(" ",2)[0];
@@ -542,13 +543,27 @@ function RefreshData() {
                                 vdataSuffix = "<sup class='subscript'> W</sup>";
                                 break;
                             case "CounterToday":
-                                vdata = new String(vdata).replace( " kWh","");
-                                vdataSuffix = "<sup class='subscript'> kWh</sup>";
+                                if (vdata.endsWith(" kWh")) {
+                                    vdata = new String(vdata).replace( " kWh","");
+                                    vdataSuffix = "<sup class='subscript'> kWh</sup>";
+                                }
+                                if (vdata.endsWith(" m3")) {
+                                    vdata = new String(vdata).replace( " m3","");
+                                    vdataSuffix = "<sup class='subscript'> m3</sup>";
+                                }
                                 break;
                             case "Data":
                                 if (vdata.endsWith(" Watt")) {
                                     vdata = new String(vdata).replace( " Watt","");
                                     vdataSuffix = "<sup class='subscript'> W</sup>";
+                                }
+                                if (vdata.endsWith(" m3")) {
+                                    vdata = new String(vdata).replace( " m3","");
+                                    vdataSuffix = "<sup class='subscript'> m3</sup>";
+                                }
+                                if (vdata.endsWith(" km")) {
+                                    vdata = new String(vdata).replace( " km","");
+                                    vdataSuffix = "<sup class='subscript'> km</sup>";
                                 }
                                 break;
                         }
@@ -676,6 +691,8 @@ format: "json"
 			//remove too much text
 			vdata=new String(vdata).split("Watt",1)[0];
 			vdata=new String(vdata).split("kWh",1)[0];
+			vdata=new String(vdata).split("m3",1)[0];
+			vdata=new String(vdata).split("km",1)[0];
 			vdate=new String(vls).split(" ",2)[0];
 		}
 	
