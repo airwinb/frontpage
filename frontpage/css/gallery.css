@@ -13,9 +13,9 @@ body {
 }
 
 .gallery-cell {
-  width: 80%;
+  width: 100%;
   height: 450px;
-  margin-right: 10px;
+  margin-right: 5px;
   background: grey ;
   counter-increment: gallery-cell;
 }
