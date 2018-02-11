@@ -18,14 +18,13 @@ $(document).ready(function () {
         ['0', 'Desc',               'cell_p1_3',    'Elektra', '0', '0'],
         ['72', 'Usage',             'cell_p1_3a',   'Elektra', '1', '0'],
         ['72', 'CounterToday',      'cell_p1_3b',   'Elektra', '0', '0'],
-        ['0', 'Desc',               'cell_p1_4',    'min / max', '0', '0'],
-        ['114', 'Data',             'cell_p1_4a',   'min / max', '1', '0'],
-        ['115', 'Data',             'cell_p1_4b',   'min / max', '0', '0'],
+        // ['0', 'Desc',               'cell_p1_4',    'min / max', '0', '0'],
+        ['73', 'CounterToday',      'cell_p1_4',    'Gas', '1', '0'],
 
         ['98', 'Temp',              'cell_p1_5',    'Huiskamer', '1', '0'],
         ['97', 'SetPoint',          'cell_p1_6',    'Thermostaat', '0', '1'],
-        ['17', 'Status',            'cell_p1_7',    'Ventilatie', '0', '1'],
-        ['33', 'Status',            'cell_p1_8',    'Power Cube', '0', '1'],
+        ['114', 'Data',             'cell_p1_7',   'Elaktra min', '1', '0'],
+        ['115', 'Data',             'cell_p1_8',   'Elektra max', '1', '0'],
         
         ['565', 'Status',           'cell_p1_9',    'Kast Dim', '0', '1'],
         ['564', 'Status',           'cell_p1_10',   'Kast Fel', '0', '1'],
@@ -33,7 +32,7 @@ $(document).ready(function () {
         ['8', 'Status',             'cell_p1_12',   'Wit kastje', '0', '1'],
         
         ['484', 'Status',           'cell_p1_13',   'Garagedeur', '2', '0'],
-        ['73', 'CounterToday',      'cell_p1_14',   'Gas vandaag', '1', '0'],
+        ['17', 'Status',            'cell_p1_14',   'Ventilatie', '0', '1'],
         ['503', 'Data',             'cell_p1_15',   'Erwin', '1', '0'],
         ['504', 'Data',             'cell_p1_16',   'Liesbeth', '1', '0'],
     
