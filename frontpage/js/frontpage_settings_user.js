@@ -11,7 +11,7 @@ $(document).ready(function () {
 //        ['98', 'Temp',              'cell_p1_1a',   'Woonkamer', '1', '0'], //Lastseen only from cell_p1__a possible
 //        ['154', 'Humidity',         'cell_p1_1b',   'Woonkamer', '0', '0'],
         // ['0', 'Desc',               'cell_p1_1',    'Binnen / buiten', '0', '0'],
-        ['99', 'Temp',              'cell_p1_1',    'Buiten', '1', '0'],
+        ['578', 'Temp',              'cell_p1_1',    'Buiten', '1', '0'],
         ['0', 'Desc',               'cell_p1_2',    'Badkamer', '0', '0'],
         ['125', 'Temp',             'cell_p1_2a',   'Badkamer', '1', '0'],
         ['125', 'Humidity',         'cell_p1_2b',   'Badkamer', '0', '0'],
