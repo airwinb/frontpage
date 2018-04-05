@@ -29,7 +29,7 @@ $(document).ready(function () {
         ['565', 'Status',           'cell_p1_9',    'Kast Dim', '0', '1'],
         ['564', 'Status',           'cell_p1_10',   'Kast Fel', '0', '1'],
         ['', '',                    'cell_p1_11',   '-', '0', '1'],
-        ['8', 'Status',             'cell_p1_12',   'Wit kastje', '0', '1'],
+        ['594', 'Status',           'cell_p1_12',   'PowerCube', '0', '1'],
         
         ['484', 'Status',           'cell_p1_13',   'Garagedeur', '2', '0'],
         ['17', 'Status',            'cell_p1_14',   'Ventilatie', '0', '1'],
@@ -53,7 +53,7 @@ $(document).ready(function () {
         ['432', 'Status',           'cell_p2_12',   'Fel', '0', '1'],
 
         ['13',  'Status',           'cell_p2_13',   'Lamp achter', '0', '1'],
-        ['45',  'Status',           'cell_p2_14',   'Lamp speaker', '0', '1'],
+        ['621', 'Status',           'cell_p2_14',   'Lamp speaker', '0', '1'],
         ['7',   'Status',           'cell_p2_15',   'Staande lamp', '0', '1'],
         ['498', 'Status',           'cell_p2_16',   'Lamp banken', '0', '1']
 
