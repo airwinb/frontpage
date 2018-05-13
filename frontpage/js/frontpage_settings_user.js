@@ -23,7 +23,7 @@ $(document).ready(function () {
 
         ['98', 'Temp',              'cell_p1_5',    'Huiskamer', '1', '0'],
         ['97', 'SetPoint',          'cell_p1_6',    'Thermostaat', '0', '1'],
-        ['114', 'Data',             'cell_p1_7',   'Elaktra min', '1', '0'],
+        ['114', 'Data',             'cell_p1_7',   'Elektra min', '1', '0'],
         ['115', 'Data',             'cell_p1_8',   'Elektra max', '1', '0'],
         
         ['565', 'Status',           'cell_p1_9',    'Kast Dim', '0', '1'],
