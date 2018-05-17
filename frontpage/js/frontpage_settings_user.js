@@ -28,7 +28,7 @@ $(document).ready(function () {
         
         ['565', 'Status',           'cell_p1_9',    'Kast Dim', '0', '1'],
         ['564', 'Status',           'cell_p1_10',   'Kast Fel', '0', '1'],
-        ['', '',                    'cell_p1_11',   '-', '0', '1'],
+        ['650', 'Status',           'cell_p1_11',   'Fiets Rit', '0', '1'],
         ['594', 'Status',           'cell_p1_12',   'PowerCube', '0', '1'],
         
         ['484', 'Status',           'cell_p1_13',   'Garagedeur', '2', '0'],
@@ -59,7 +59,7 @@ $(document).ready(function () {
 
     ];
     $.PageArray_Scenes = [
-        ['1', 'Status',        'cell_p1_11',    'Lampen kamer', '0', '1']
+        // ['1', 'Status',        'cell_p1_11',    'Lampen kamer', '0', '1']
         // ['7', 'Status',        'cell_p1_13',   'Lamp achtertuin', '1', '0'],
     ];
 
