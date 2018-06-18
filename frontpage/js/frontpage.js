@@ -165,21 +165,20 @@ function RefreshData() {
                                 }
                                 break;
                             case 'Selector':
+                                // Since level names are encoded the names are retrieved from the 'Description' if set.
+                                // Format to use: e.g. Off|Dicht|Half open|Volledig open
                                 vdata = item['Level']; //get current level
-                                var lvlnames = item['LevelNames'].split("|"); //get all levels
-                                var countlevels = item['LevelNames'].split("|").length-1; //count the number of levels
-                                var lvlindex;
-                                if (item['Level'] == '0'){
-                                    lvlindex = 0;
+                                var levelNames = item['Description'].split("|"); //get all levels
+                                var countLevels = item['Description'].split("|").length-1; //count the number of levels
+                                var levelIndex = item['Level'] / 10;
+                                if (levelIndex < countLevels) {
+                                    var LevelName = levelNames[levelIndex].substr(0, 8);
+                                    if (LevelName == 'Off') {
+                                        LevelName = txt_off;
+                                    }
                                 }
                                 else {
-                                    var temp = item['Level'] + "";
-                                    lvlindex = temp.slice(0, -1);
-                                }
-                                // var LevelName = lvlnames[lvlindex];
-                                var LevelName = lvlnames[lvlindex].substr(0, 8);
-                                if (LevelName == 'Off') {
-                                    LevelName = txt_off;
+                                    LevelName = '?'
                                 }
                                 // EDB: removed selector part, because the min/plus is not working and the text is too long
                                 // if(lvlindex == 0) { //switch is off
