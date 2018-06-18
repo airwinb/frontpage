@@ -54,7 +54,7 @@ $(document).ready(function () {
 
         ['13',  'Status',           'cell_p2_13',   'Lamp achter', '0', '1'],
         ['621', 'Status',           'cell_p2_14',   'Lamp speaker', '0', '1'],
-        ['7',   'Status',           'cell_p2_15',   'Staande lamp', '0', '1'],
+        ['651', 'Status',           'cell_p2_15',   'Staande lamp', '0', '1'],
         ['498', 'Status',           'cell_p2_16',   'Lamp banken', '0', '1']
 
     ];
