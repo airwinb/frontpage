@@ -28,7 +28,7 @@ $(document).ready(function () {
         
         ['565', 'Status',           'cell_p1_9',    'Kast Dim', '0', '1'],
         ['564', 'Status',           'cell_p1_10',   'Kast Fel', '0', '1'],
-        ['650', 'Status',           'cell_p1_11',   'Fiets Rit', '0', '1'],
+        ['670', 'Status',           'cell_p1_11',   'Openhaard', '0', '1'],
         ['594', 'Status',           'cell_p1_12',   'PowerCube', '0', '1'],
         
         ['484', 'Status',           'cell_p1_13',   'Garagedeur', '2', '0'],
@@ -39,7 +39,7 @@ $(document).ready(function () {
         // page 2
         ['269', 'Status',           'cell_p2_1',    'Overloop', '0', '1'],
         ['339', 'Status',           'cell_p2_2',    'Overloop nacht', '0', '1'],
-        ['522', 'Status',           'cell_p2_3',    'Boekenkast', '0', '1'],
+        ['585', 'Status',           'cell_p2_3',    'Wandlamp', '0', '1'],
         ['353', 'Status',           'cell_p2_4',    'Oppas', '0', '1'],
 
         ['429', 'Status',           'cell_p2_5',    'Eettafel ->', '0', '1'],
