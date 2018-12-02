@@ -23,40 +23,40 @@ $(document).ready(function () {
 
         ['98', 'Temp',              'cell_p1_5',    'Huiskamer', '1', '0'],
         ['97', 'SetPoint',          'cell_p1_6',    'Thermostaat', '0', '1'],
-        ['114', 'Data',             'cell_p1_7',   'Elektra min', '1', '0'],
-        ['115', 'Data',             'cell_p1_8',   'Elektra max', '1', '0'],
+        ['114', 'Data',             'cell_p1_7',    'Elektra min', '1', '0'],
+        ['115', 'Data',             'cell_p1_8',    'Elektra max', '1', '0'],
         
-        ['565', 'Status',           'cell_p1_9',    'Kast Dim', '0', '1'],
-        ['564', 'Status',           'cell_p1_10',   'Kast Fel', '0', '1'],
+        ['353', 'Status',           'cell_p1_9',    'Oppas', '0', '1'],
+        ['17',  'Status',           'cell_p1_10',   'Ventilatie', '0', '1'],
         ['670', 'Status',           'cell_p1_11',   'Openhaard', '0', '1'],
         ['594', 'Status',           'cell_p1_12',   'PowerCube', '0', '1'],
         
         ['484', 'Status',           'cell_p1_13',   'Garagedeur', '2', '0'],
-        ['17', 'Status',            'cell_p1_14',   'Ventilatie', '0', '1'],
+        ['558', 'Status',           'cell_p1_14',   'Rolluik', '0', '1'],
         ['503', 'Data',             'cell_p1_15',   'Erwin', '1', '0'],
         ['504', 'Data',             'cell_p1_16',   'Liesbeth', '1', '0'],
     
         // page 2
-        ['269', 'Status',           'cell_p2_1',    'Overloop', '0', '1'],
-        ['339', 'Status',           'cell_p2_2',    'Overloop nacht', '0', '1'],
-        ['585', 'Status',           'cell_p2_3',    'Wandlamp', '0', '1'],
-        ['353', 'Status',           'cell_p2_4',    'Oppas', '0', '1'],
+        ['752', 'Status',           'cell_p2_1',    'Boekenkast Uit', '0', '1'],
+        ['565', 'Status',           'cell_p2_2',    'Boekenkast Dim', '0', '1'],
+        ['748', 'Status',           'cell_p2_3',    'Boekenkast Normaal', '0', '1'],
+        ['564', 'Status',           'cell_p2_4',    'Boekenkast Fel', '0', '1'],
 
-        ['429', 'Status',           'cell_p2_5',    'Eettafel ->', '0', '1'],
-        ['433', 'Data',             'cell_p2_6',    'Dim', '0', '1'],
-        ['434', 'Data',             'cell_p2_7',    'Normaal', '0', '1'],
-        ['435', 'Data',             'cell_p2_8',    'Fel', '0', '1'],
+        ['750', 'Status',           'cell_p2_5',    'Eettafel Uit', '0', '1'],
+        ['433', 'Status',           'cell_p2_6',    'Eettafel Dim', '0', '1'],
+        ['434', 'Status',           'cell_p2_7',    'Eettafel Normaal', '0', '1'],
+        ['435', 'Status',           'cell_p2_8',    'Eettafel Fel', '0', '1'],
 
-        ['428', 'Status',           'cell_p2_9',    'Voortafel ->', '0', '1'],
-        ['430', 'Status',           'cell_p2_10',   'Dim', '0', '1'],
-        ['431', 'Status',           'cell_p2_11',   'Normaal', '0', '1'],
-        ['432', 'Status',           'cell_p2_12',   'Fel', '0', '1'],
+        ['751', 'Status',           'cell_p2_9',    'Voortafel Uit', '0', '1'],
+        ['430', 'Status',           'cell_p2_10',   'Voortafel Dim', '0', '1'],
+        ['431', 'Status',           'cell_p2_11',   'Voortafel Normaal', '0', '1'],
+        ['432', 'Status',           'cell_p2_12',   'Voortafel Fel', '0', '1'],
 
         ['13',  'Status',           'cell_p2_13',   'Lamp achter', '0', '1'],
         ['621', 'Status',           'cell_p2_14',   'Lamp speaker', '0', '1'],
         ['651', 'Status',           'cell_p2_15',   'Staande lamp', '0', '1'],
         ['498', 'Status',           'cell_p2_16',   'Lamp banken', '0', '1']
-
+        
     ];
     $.PageArray_Scenes = [
         // ['1', 'Status',        'cell_p1_11',    'Lampen kamer', '0', '1']
