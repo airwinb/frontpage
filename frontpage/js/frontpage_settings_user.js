@@ -29,7 +29,7 @@ $(document).ready(function () {
         ['353', 'Status',           'cell_p1_9',    'Oppas', '0', '1'],
         ['17',  'Status',           'cell_p1_10',   'Ventilatie', '0', '1'],
         ['670', 'Status',           'cell_p1_11',   'Openhaard', '0', '1'],
-        ['594', 'Status',           'cell_p1_12',   'PowerCube', '0', '1'],
+        ['14',  'Status',           'cell_p1_12',   'Kerstboom', '0', '1'],
         
         ['484', 'Status',           'cell_p1_13',   'Garagedeur', '2', '0'],
         ['558', 'Status',           'cell_p1_14',   'Rolluik', '0', '1'],
